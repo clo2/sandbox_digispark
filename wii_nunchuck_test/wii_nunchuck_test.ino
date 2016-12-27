@@ -13,6 +13,7 @@ int rightLed = 1;
 int bottomLed = 1;
 int leftLed = 1;
 
+
 void nunchuck_init(void)
 {
   Wire.beginTransmission (0x52);  // transmit to device 0x52
